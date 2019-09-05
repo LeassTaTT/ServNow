@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>angular js bandit code changes </description>
+        <global>false</global>
+        <name>x_396709_bandit.bandit_ui_script_ang_lar</name>
+        <script><![CDATA[console.log('bandit 1 init');
+var app = angular.module('BanditApp',[]);
+app.controller('AngularAppCtrl', function($scope){
+	$scope.myVar='';
+	$scope.i= 0;
+	$scope.clearTxt = function(){
+			$scope.myVar='';
+			$scope.i++;
+		alert('bandit stole all values for '+ $scope.i +' times ' + g_user.fullName);
+	};
+	
+});]]></script>
+        <script_name>bandit_ui_script_ang_lar_js</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 14:08:19</sys_created_on>
+        <sys_id>38c4aca7db27330065969235ca96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_396709_bandit.bandit_ui_script_ang_lar</sys_name>
+        <sys_package display_value="BANDIT" source="x_396709_bandit">46afc15fdbd7330065969235ca9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BANDIT">46afc15fdbd7330065969235ca9619f9</sys_scope>
+        <sys_update_name>sys_ui_script_38c4aca7db27330065969235ca96196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 15:18:07</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

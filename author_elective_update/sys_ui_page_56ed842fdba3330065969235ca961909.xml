@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[console.log('bandit 1 init ');]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_396709_bandit_.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.12/angular-animate.js'></script>
+	
+	
+	<div ng-app=''></div>
+</j:jelly>]]></html>
+        <name/>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 12:27:39</sys_created_on>
+        <sys_id>56ed842fdba3330065969235ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BANDIT" source="x_396709_bandit">46afc15fdbd7330065969235ca9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BANDIT">46afc15fdbd7330065969235ca9619f9</sys_scope>
+        <sys_update_name>sys_ui_page_56ed842fdba3330065969235ca961909</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 12:27:39</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BANDIT">46afc15fdbd7330065969235ca9619f9</application>
+        <file_path/>
+        <instance_id>917e3926dbfb97804f035d00cf961986</instance_id>
+        <instance_name>dev70062</instance_name>
+        <name>sys_ui_page_56ed842fdba3330065969235ca961909</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[console.log('bandit 1 init ');]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_396709_bandit_.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.12/angular-animate.js'&gt;&lt;/script&gt;
+	
+	
+	&lt;div ng-app=''&gt;&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name/&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-03 12:27:39&lt;/sys_created_on&gt;&lt;sys_id&gt;56ed842fdba3330065969235ca961909&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="BANDIT" source="x_396709_bandit"&gt;46afc15fdbd7330065969235ca9619f9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BANDIT"&gt;46afc15fdbd7330065969235ca9619f9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_56ed842fdba3330065969235ca961909&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-03 12:27:39&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2070038046</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0eafc15fdbd7330065969235ca9619fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 12:27:39</sys_created_on>
+        <sys_id>0a2e88a3dbe3330065969235ca961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cf71849700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 12:27:39</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>422e88a39de33300517e5558d6d1a030</update_guid>
+        <update_guid_history>422e88a39de33300517e5558d6d1a030:-2070038046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 12:28:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>1cf69c23018843bda3622eaa6d6e2a29</sys_id>
+        <sys_metadata>56ed842fdba3330065969235ca961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BANDIT" source="x_396709_bandit">46afc15fdbd7330065969235ca9619f9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BANDIT">46afc15fdbd7330065969235ca9619f9</sys_scope>
+        <sys_scope_delete display_value="">452c0c5e93c04995a12b04bbabf2c649</sys_scope_delete>
+        <sys_update_name>sys_ui_page_56ed842fdba3330065969235ca961909</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_56ed842fdba3330065969235ca961909">0a2e88a3dbe3330065969235ca961930</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 12:28:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

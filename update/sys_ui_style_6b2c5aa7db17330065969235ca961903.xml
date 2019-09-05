@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element/>
+        <name/>
+        <style>html, body, #map_canvas {&#13;
+    margin: 0;&#13;
+    padding: 0;&#13;
+    height: 100%;&#13;
+    width: 100%;&#13;
+  }&#13;
+  &#13;
+  .header {&#13;
+    background-color: rgba(0,0,0,0.3);&#13;
+    position: absolute;&#13;
+    width: 100%;&#13;
+    z-index: 10;&#13;
+    line-height: 37px;&#13;
+  }&#13;
+  &#13;
+  .header .container-fluid {&#13;
+    position: relative;&#13;
+  }&#13;
+  &#13;
+  .header h1 {&#13;
+    color: #fff;&#13;
+    font-size: 16px;&#13;
+    letter-spacing: 1.2px;    &#13;
+    margin: 0;&#13;
+    padding: 10px 0 10px 55px;&#13;
+    text-transform: uppercase;&#13;
+  }&#13;
+  &#13;
+  .header a {&#13;
+    padding-right: 20px;&#13;
+    color: #fff;&#13;
+  }&#13;
+  &#13;
+  .container-fluid {&#13;
+    padding-left: 0;&#13;
+    padding-right: 0;&#13;
+  }&#13;
+  &#13;
+  #map_canvas {&#13;
+    position: relative;&#13;
+  }&#13;
+  &#13;
+  .angular-leaflet-map {&#13;
+    position: absolute;&#13;
+    top: 0;&#13;
+    bottom: 0;&#13;
+    right: 0;&#13;
+    left: 0;&#13;
+  }</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 12:33:04</sys_created_on>
+        <sys_id>6b2c5aa7db17330065969235ca961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BANDIT" source="x_396709_bandit">46afc15fdbd7330065969235ca9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BANDIT">46afc15fdbd7330065969235ca9619f9</sys_scope>
+        <sys_update_name>sys_ui_style_6b2c5aa7db17330065969235ca961903</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 12:33:04</sys_updated_on>
+        <value>main.css</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b2c5aa7db17330065969235ca961903"/>
+</record_update>

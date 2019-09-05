@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bandit_Tables" max_length="40" name="x_396709_bandit_bandit_tables" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Create Date" max_length="40" name="create_date" type="glide_date_time"/>
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Info" max_length="400" name="info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Update Date" max_length="40" name="update_date" type="glide_date_time"/>
+    </element>
+</database>

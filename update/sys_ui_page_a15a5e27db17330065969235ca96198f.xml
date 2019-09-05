@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function foo(){
+	alert('bandit alert');
+	}]]></client_script>
+        <description>HTML - bandit </description>
+        <direct>true</direct>
+        <endpoint>x_396709_bandit_btn-alert-html.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<form> 
+		<label for='name'>user name </label>
+		<input id='name' type='text'></input>
+		<br/>
+		<label for='pass'>user name </label>
+		<input id='pass' type='password'></input>
+		<br/>
+		<button style=' padding-right: 20px;   background-color: rgba(0,0,0,0.3);   color: #fff;' onclick='foo()'>ALERT</button>
+	</form>
+</j:jelly>]]></html>
+        <name>btn-alert-html</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 12:27:00</sys_created_on>
+        <sys_id>a15a5e27db17330065969235ca96198f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>btn-alert-html</sys_name>
+        <sys_package display_value="BANDIT" source="x_396709_bandit">46afc15fdbd7330065969235ca9619f9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BANDIT">46afc15fdbd7330065969235ca9619f9</sys_scope>
+        <sys_update_name>sys_ui_page_a15a5e27db17330065969235ca96198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 12:43:21</sys_updated_on>
+    </sys_ui_page>
+</record_update>
